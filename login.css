@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+.background { 
+    background-image: url(images/background.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 20vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+nav img{
+    width: 200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 16.5cm;
+    cursor: pointer;
+    padding-left: -1cm;
+    padding-top: 1cm;
+    animation: logoMotion 2s ;
+}
+
+@keyframes logoMotion {
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    75%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    min-height: 65vh;
+    margin: -60px;
+
+}
+
+
+.login {
+    width: 420px;
+    height: 350px;
+    background: rgb(227, 210, 227);
+    color: #fff;
+    animation: loginMotion 2s ;
+}
+
+@keyframes loginMotion {
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    75%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
+
+.login h1{
+    text-align: center;
+    margin: 10px;
+}
+
+.login h2{
+    margin: 5px;
+    text-align: center;
+}
+
+.logininput input{
+    width: 90%;
+    height: 100%;
+    margin: 0.5cm;
+}
+
+.forgotpassword {
+    text-align: center;
+    margin: 0.2cm;
+}
+
+button {
+	width: 65px;
+	height: 30px;
+	font-size: 20px;
+	background-color:rgb(242, 170, 170);
+	color: black;
+    margin-left: 44%;
+}
+
+.register{
+    margin-top: 1cm;
+    text-align: center;
+}

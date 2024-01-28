@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="try.css">
+    <script src="try.js"></script>
+    <title>AiRBnB ClOnE</title>
+</head>
+<body>
+    <div class="background">
+        <nav  id="nav">
+            <a href="index.html"><img src="images/airbnb-logos_black.png" class="logo"></a>
+            <ul class="nav-links">
+                <li>
+                    <a href="plist.html">Available Properties</a>
+                    <a href="login.html">Login</a>
+                </li>
+        </nav>
+
+        <div class="search">
+            <h1> Find places on AiRBnb CloNE</h1><hr><hr>
+            <h4> Discover entire homes and rooms perfect for any trip.</h4>
+            <div class="labels">
+            <label for="locationInput">Location</label>
+            <select id="locationInput">
+                <option value="Chennai">Chennai</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Pune">Pune</option>
+                <option value="Goa">Goa</option>
+            </select>
+            </div>
+    
+    
+            <div class="labels">
+            <label for="checkininput">Check-In</label>
+            <input type="date" id="checkininput" placeholder="Check-In"></div>
+    
+            <div class="labels">
+            <label for="checkoutinput">Check-Out</Check-Out></label>
+            <input type="date" id="checkoutinput" placeholder="Check-Out"></div>
+    
+            <div class="labels">
+            <label for="guestsinput">No. of Guests</Check-Out></label>
+            <input type="number" id="guestsinput" placeholder="Guests"></div>
+    
+            <div class="labels">
+            <label for="pricerangeinput">Prices</Check-Out></label>
+            <select id="pricerangeinput">
+                <option value="1000-2000">1000-2000</option>
+                <option value="2000-3000">2000-3000</option>
+                <option value="3000-5000">3000-5000</option>
+                <option value="5000-10000">5000-10000</option>
+            </select></div>
+            <button id="searchbutton" onclick="displaynext()">Search</button>
+        </div>
+        
+    </div>
+    
+    
+</body>
+</html>

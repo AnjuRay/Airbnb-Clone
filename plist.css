@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+
+.background { 
+    background-color: aliceblue;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+.acbg { 
+    background-color: rgb(246, 227, 224);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.spbg { 
+    background-color: rgb(245, 239, 220);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.beachfbg { 
+    background-color: rgb(212, 245, 242);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.breakfbg { 
+    background-color: rgb(212, 211, 244);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.napbg { 
+    background-color: rgb(181, 181, 182);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.tropicalbg { 
+    background-color: rgb(192, 234, 204);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+
+
+.logo{
+    width: 170px;
+    cursor: pointer;
+    padding-left: 0.05cm;
+    padding-top: 0.05cm;
+    size: 50px;
+}
+
+.nav-links{
+    padding: 15px;
+    text-align-last: right;
+    cursor: pointer;
+    background-color: transparent;
+    margin-top: -160px;
+
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: rgb(193, 112, 26);
+    margin: 0 20px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover{
+    color: rgb(226, 33, 42);
+}
+
+.rectangle {
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+.space{
+    padding-top: 80px;
+    position: right;
+}
+.propertylist { 
+    background-color: transparent;
+    padding: 15px;
+    text-align-last: center;
+    cursor: pointer;
+    border: transparent;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+
+}
+.expandlist{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+
+.propertylist img{
+    width: 90px;
+    cursor: pointer;
+
+}
+
+.propertylist a{
+    text-align: justify;
+    text-decoration: none;
+    color: rgb(193, 112, 26);
+    margin: 0 20px;
+    transition: color 0.3s;
+
+}
+
+.listofproperty {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.leftside {
+    flex-basis: 80%;
+    padding-left: 3cm;
+}
+
+
+
+.leftside h1 {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.house {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    border-top: 1px solid #ccc ;
+
+}
+
+
+.houseimg {
+    flex-basis: 40%;
+}
+
+.houseimg img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.houseinfo {
+    flex-basis: 58%;
+    color: #333;
+}
+
+.houseinfo h3 {
+    font-weight: 600;
+    color:  #333;
+    font-size: 22px;
+    margin: 4px 0;
+}
+
+.houseinfo .star{
+    color: rgb(201, 93, 93);
+    font-size: 24px;
+}
+
+.houseprice {
+    text-align: right;
+    margin: 0.3px;
+}
+
+.houseprice h4 {
+    font-size: 20px;
+}
+
+.houseprice h4 span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.leftside .addtocart {
+    padding: 10px 20px;
+    margin-top: 1.5cm;
+    background-color: lightcoral;
+    transition: background-color 0.3s ease;
+}
+
+.leftside .addtocart:hover {
+    background-color: rgb(80, 215, 80);
+}
+
+.cartimg {
+    width: 200px;
+}
+
+.like{
+    background: transparent;
+    border: transparent;
+    margin: 87px;
+    font-size: 88px;
+    outline: none;
+    color: grey;
+    transition: color 10000s;
+}
+.like i:hover{
+    color: red ;
+    cursor: pointer;
+    
+}
+
+
+.heart {
+    color: grey;
+    transition: color 5s;
+    justify-content: center;
+}
+
+.heart:hover{
+    color: red;
+    cursor: pointer;
+}

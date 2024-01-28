@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+.background { 
+    background-color: aliceblue;
+    width: 100%;
+    min-height: 27vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.acbg { 
+    background-color: rgb(246, 227, 224);
+    
+}
+
+.spbg { 
+    background-color: rgb(236, 227, 197);
+    
+}
+
+.beachfbg { 
+    background-color: rgb(212, 245, 242);
+    
+}
+
+.breakfbg { 
+    background-color: rgb(212, 211, 244);
+   
+}
+
+.logo{
+    width: 200px;
+    cursor: pointer;
+    padding-left: 1cm;
+    padding-top: 1cm;
+}
+
+.nav-links{
+    padding: 15px;
+    text-align-last: right;
+    cursor: pointer;
+    background-color: transparent;
+    margin-top: -160px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: rgb(112, 168, 233);
+    margin: 0 20px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover{
+    color: rgb(226, 33, 42);
+}    
+.space{
+    text-align: center;
+        padding-top: 20px;
+        position: right;
+    }
+.row div p{
+    margin: 10px 0;
+
+}
+
+.house-details{
+    padding: 0 12%;
+}
+.search-result{
+    margin-top: 50px;
+}
+.search-result h1{
+     font-weight: 600;
+} 
+.gallery{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: 'first first . .''first first . .';
+
+}
+
+.gallery div img{
+    width: 100%;
+    display: block;
+    border-radius: 10px
+}
+.galleryimg1{
+    grid-area: first;
+} 
+.small-details h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    border: 10px 0;
+
+} 
+.small-details h4{
+    text-align: right;
+    font-size: 18px;
+}
+.small-details p{
+    font-family: 'Times New Roman', Times, serif;
+    border: 10px 0;
+}
+.line{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 100%;
+    max-width: 800px;
+}
+.line1{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 100%;
+}
+.checkform{
+    margin: 30px 0;
+    background: #fff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 40px;
+    justify-content:center;
+    
+}
+.checkform label{
+    display: block;
+}
+.checkform div{
+    padding: 20px;
+}
+.checkform input{
+    background: transparent;
+    border: 0;
+    outline: none;
+}
+.checkform button{
+    background: #ff5361;
+    border: 0;
+    outline: none;
+    color: #fff ;
+    padding: 18px;
+    width: 300px;
+    border-radius: 8px;
+    font-size: 16px;
+}
